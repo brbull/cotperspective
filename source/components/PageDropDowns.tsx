@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import { COTData } from '../constants/COTTypes'
 import { traderCategories } from '../constants/traderCategories'
-import { getPagePath } from '../functions/getFileName'
+import { getPagePath } from '../functions/getPagePath'
 
 interface SelectProps {
   children: ReactNode
