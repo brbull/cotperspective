@@ -1,6 +1,6 @@
 import React from 'react'
 import { PageDropDowns, pageSelectScript } from './PageDropDowns'
-import { testData } from '../constants/testData'
+import { testData } from '../functions/testUtils/testData'
 import { getSortedKeys } from '../functions/getSortedKeys'
 import { traderCategories } from '../constants/traderCategories'
 import { selectedExchange, selectedMarket, selectedTraderCategory } from '../constants/defaultSelections'

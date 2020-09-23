@@ -12,7 +12,7 @@ import { traderCategories } from './constants/traderCategories'
 import { selectedExchange, selectedMarket, selectedTraderCategory } from './constants/defaultSelections'
 import { averagePeriod } from './constants/averagePeriod'
 import { buildPath } from './constants/buildPath'
-import { testData } from './constants/testData'
+import { testData } from './functions/testUtils/testData'
 
 /**
  * Fetch COT data from CFTC site, process data into JS object, and render

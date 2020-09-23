@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { selectedExchange, selectedMarket, selectedTraderCategory } from '../constants/defaultSelections'
-import { testData } from '../constants/testData'
+import { testData } from '../functions/testUtils/testData'
 import { DataTable, getAverage } from './DataTable'
 import { processTableData } from '../functions/processTableData'
 import { averagePeriod } from '../constants/averagePeriod'
